@@ -1,0 +1,21 @@
+.landscape {
+    width: 420px;
+    height: 300px;
+  }
+  
+  .portrait {
+    width: 217px;
+    height: 400px;
+  }
+
+  .landscape, .portrait {
+    margin-right: 25px;
+    margin-bottom: 15px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+  }

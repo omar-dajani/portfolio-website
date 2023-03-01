@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(242, 238, 232, 255);
+}
+
+.App {
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 700px;
+}
+
+#nav-bar {
+    flex: 0 0 auto;
+}
+
+#about {
+    flex: 1 1 auto;
+}
+
+#view-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#view-experience-text {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#work {
+    margin-bottom: 200px;
+}
+
+#projects {
+    margin-bottom: 200px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #parent {
+        height: auto;
+    }
+
+    #view-experience {
+        display: none;
+    }
+}

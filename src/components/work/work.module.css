@@ -1,0 +1,9 @@
+#work-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#where-ive-worked {
+    margin-bottom: 60px;
+}

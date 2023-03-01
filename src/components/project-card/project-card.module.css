@@ -1,0 +1,68 @@
+.project-card .header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project-card .header .left {
+    flex: 1;
+}
+
+.project-card .header .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.project-card .body {
+    height: 200px;
+    overflow-wrap: break-word;
+}
+
+.project-card .body .title {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.project-card .tech-stack {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 8px;
+}
+
+.project-card .tech-stack p {
+    padding: 0; margin: 0;
+}
+
+.project-card {
+    padding: 20px !important;
+    border-radius: 3px;
+    min-width: 340px;
+    max-width: 340px;
+    height: 330px;
+    background: rgba(169, 154, 102, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.project-card a {
+  text-decoration: none !important; /* Removes the underline from the link */
+  color: inherit !important; /* Inherits the color of the parent element */
+}
+
+.project-card .header .right #external-link {
+    transition: 0.3s;
+}
+
+.project-card .header .right #external-link:hover {
+    color: rgb(169, 154, 102);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
